@@ -1,0 +1,13 @@
+version: '2'
+services:
+  ci:
+    image: jenkins:2.0
+    ports:
+     - "8080:8080"
+     - "50000:50000"
+    links:
+    - node_ci
+  node_ci:
+   build: ./slave_node_alpine
+   ports:
+    - 22
