@@ -1,10 +1,12 @@
 # jenkins2docker
 
-Pre-built solution for Jenkins 2.0 and a Node.js slave throughDocker Compose
+Pre-built solution for Jenkins 2.0 and a Node.js slave through Docker Compose
 
 This repository accompanies blog post
 
 > [Jenkins 2.0 first impressions](http://blog.alexellis.io/jenkins-2-0-first-impressions/)
+
+Please **Star** the repo to support the project
 
 #### Docker, perfect for test-driving Jenkins
 
@@ -24,7 +26,7 @@ Please head over to the blog for instructions on setting up the build and exampl
 
 * docker-compose.yml file with Node.js
 
-[sample_config.xml](https://github.com/alexellis/jenkins2docker/blob/master/docker-compose.yml)
+[docker-compose.yml](https://github.com/alexellis/jenkins2docker/blob/master/docker-compose.yml)
 
 * alexellis2/jenkins2slave_nodejs (Alpine Linux, node.js and SSHD)
 
