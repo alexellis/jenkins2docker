@@ -2,7 +2,9 @@
 
 Pre-built solution for Jenkins 2.0 and a Node.js slave throughDocker Compose
 
-This repository accompanies blog post http://blog.alexellis.io/jenkins-2-0-first-impressions/
+This repository accompanies blog post
+
+> [Jenkins 2.0 first impressions](http://blog.alexellis.io/jenkins-2-0-first-impressions/)
 
 #### Docker, perfect for test-driving Jenkins
 
@@ -12,4 +14,4 @@ I started off by looking at the official instructions for starting a Jenkins 2.0
 
 Please head over to the blog for instructions on setting up the build and example project.
 
-> (Jenkins 2.0 first impressions)[http://blog.alexellis.io/jenkins-2-0-first-impressions/]
+> [Jenkins 2.0 first impressions](http://blog.alexellis.io/jenkins-2-0-first-impressions/)
