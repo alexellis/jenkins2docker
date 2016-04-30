@@ -21,13 +21,10 @@ Please head over to the blog for instructions on setting up the build and exampl
 #### Files:
 
 * Sample job config for featured Node.js app
-
-[sample_config.xml](https://github.com/alexellis/jenkins2docker/blob/master/sample_config.xml)
+ * [sample_config.xml](https://github.com/alexellis/jenkins2docker/blob/master/sample_config.xml)
 
 * docker-compose.yml file with Node.js
-
-[docker-compose.yml](https://github.com/alexellis/jenkins2docker/blob/master/docker-compose.yml)
+ * [docker-compose.yml](https://github.com/alexellis/jenkins2docker/blob/master/docker-compose.yml)
 
 * alexellis2/jenkins2slave_nodejs (Alpine Linux, node.js and SSHD)
-
-[Dockerfile](https://github.com/alexellis/jenkins2docker/blob/master/slave_node_alpine/Dockerfile)
+ * [Dockerfile](https://github.com/alexellis/jenkins2docker/blob/master/slave_node_alpine/Dockerfile)
