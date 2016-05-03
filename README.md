@@ -24,9 +24,9 @@ Please head over to the blog for instructions on setting up the build and exampl
 
 You can pull these images straight from the Docker Hub to be used as Jenkins slave agents.
 
-* [alexellis2/jenkins_nodejs_slave](https://hub.docker.com/r/alexellis2/jenkins_nodejs_slave/~/dockerfile/)
+* [alexellis2/jenkins_nodejs_slave](https://hub.docker.com/r/alexellis2/jenkins_nodejs_slave/)
 
-* [alexellis2/jenkins_slave](https://hub.docker.com/r/alexellis2/jenkins_slave/~/dockerfile/)
+* [alexellis2/jenkins_slave](https://hub.docker.com/r/alexellis2/jenkins_slave/)
 
 #### Supporting files:
 
