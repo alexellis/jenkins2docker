@@ -8,19 +8,27 @@ This repository accompanies blog post
 
 Please **Star** the repo to support the project
 
-#### Docker, perfect for test-driving Jenkins
+> #### Docker, perfect for test-driving Jenkins
 
-When Jenkins 2.0 was released I wanted to take it for a test drive, the perfect way to do this was through Docker. Docker means zero commitment to installing packages and configuring your system. Even installing Java could take you on a 30-60min hour detour, Official, prebuilt images in the Docker Hub completely eliminates that and gives you near instant access to pre-packaged software.
+> When Jenkins 2.0 was released I wanted to take it for a test drive, the perfect way to do this was through Docker. Docker means zero  commitment to installing packages and configuring your system. Even installing Java could take you on a 30-60min hour detour, Official, prebuilt images in the Docker Hub completely eliminates that and gives you near instant access to pre-packaged software.
 
-I started off by looking at the official instructions for starting a Jenkins 2.0 container. They give 3-4 variations of the `docker run` command but this can be made much simpler through the use of Docker Compose and a `docker-compose.yml` file.
+> I started off by looking at the official instructions for starting a Jenkins 2.0 container. They give 3-4 variations of the `docker run` command but this can be made much simpler through the use of Docker Compose and a `docker-compose.yml` file.
 
-> I've also been able to trim down a 650mb Jenkins Slave image down to a mere 150mb.
+* Jenkins slave image trimmed down to 150mb from 650mb+
 
 Please head over to the blog for instructions on setting up the build and example project.
 
 > [Jenkins 2.0 first impressions](http://blog.alexellis.io/jenkins-2-0-first-impressions/)
 
-#### Files:
+#### Public Docker images:
+
+You can pull these images straight from the Docker Hub to be used as Jenkins slave agents.
+
+* [alexellis2/jenkins_nodejs_slave](https://hub.docker.com/r/alexellis2/jenkins_nodejs_slave/~/dockerfile/)
+
+* [alexellis2/jenkins_slave](https://hub.docker.com/r/alexellis2/jenkins_slave/~/dockerfile/)
+
+#### Supporting files:
 
 * docker-compose.yml file with Node.js
  * [docker-compose.yml](https://github.com/alexellis/jenkins2docker/blob/master/docker-compose.yml)
