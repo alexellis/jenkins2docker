@@ -14,11 +14,11 @@ Please **Star** the repo to support the project
 
 > I started off by looking at the official instructions for starting a Jenkins 2.0 container. They give 3-4 variations of the `docker run` command but this can be made much simpler through the use of Docker Compose and a `docker-compose.yml` file.
 
-* Jenkins slave image trimmed down to 150mb from 650mb+
+#### Jenkins Slave Docker images:
 
-#### Public Docker images:
+You can pull these images straight from the public Docker Hub to be used as Jenkins slave agents.
 
-You can pull these images straight from the Docker Hub to be used as Jenkins slave agents.
+Jenkins slave images have been trimmed down to 150mb from 650mb+ by switching to Alpine Linux. 
 
 * [alexellis2/jenkins_nodejs_slave](https://hub.docker.com/r/alexellis2/jenkins_nodejs_slave/)
 
