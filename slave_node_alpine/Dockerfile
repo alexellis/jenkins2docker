@@ -20,6 +20,6 @@ RUN sed -i "s/UsePrivilegeSeparation.*/UsePrivilegeSeparation no/g" /etc/ssh/ssh
 
 RUN apk --update add git
 
-RUN echo "AllowGroups jenkins|tee -a /etc/sshd_config"
+RUN echo "AllowGroups jenkins|tee -a /etc/ssh/sshd_config"
 
 CMD ["/bin/sh", "./start.sh"]
