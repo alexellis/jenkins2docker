@@ -18,6 +18,6 @@ RUN sed -i "s/UsePrivilegeSeparation.*/UsePrivilegeSeparation no/g" /etc/ssh/ssh
 	&& sed -i "s/UsePAM.*/UsePAM no/g" /etc/ssh/sshd_config
 # RUN sed -i "s/#PermitRootLogin.*/PermitRootLogin yes/g" /etc/ssh/sshd_config
 
-RUN echo "AllowGroups jenkins|tee -a /etc/sshd_config"
+RUN echo "AllowGroups jenkins|tee -a /etc/ssh/sshd_config"
 
 CMD ["/bin/sh", "./start.sh"]
